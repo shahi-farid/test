@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Top Header*/
+#header{
+    padding: 14px 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.menu-top-right{
+    transform: translate(40%);
+}
+.menu-top-right a{
+    text-decoration: none;
+    color: black;
+}
+
+/*NavBar*/
+
+
+.navbar-nav .custom-nav a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+/*Banner area*/
+#banner{
+    background-color: #f6214b;
+}
+
+.banner-content  > a{
+    background-color: #f6214b;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+.banner-content > a:hover{
+    color:#ffff;
+    font-weight: 800;
+}
+/*middle area*/
+.calltotop-area{
+ background-color: #ffff;
+}
+.middle-area p span{
+    font-size: 30px;
+    text-align: right;
+    font-weight: 600;
+    line-height: 1.1em;
+    color: #222;
+}
+
+.middle-right > a{
+    background-color: #f6214b;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    
+}
+
+/*service Area */
+
+.section-gap{
+    padding: 5% 0;
+}
+.service-heading h1{
+    font-size: 36px;
+}
+
+.single-service .thumb{
+    overflow: hidden;
+}
+.single-service .tag{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: #222;
+    color: #fff !important;
+    padding: 8px;
+}
+.single-service h4{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: "sans-serif";
+}
+.single-service a{
+    text-decoration: none;
+    color: black;
+}
+.single-service  a:hover{
+    color:#f6214b;
+}
+/*booking Area*/
+.booking-area{
+    background-image: url("./img/book-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.booking-area .overlay-bg{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.default-select{
+    width: 140px;
+}
+
+/*feature Area */
+.feature-area{
+    background-color: #ffff;
+}
+.feature-area .header-text h1{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.feature-area .header-text{
+    text-align: center;
+}
+.single-feature{
+    padding: 30px;
+}
+.single-feature h4{
+    margin-bottom: 20px;
+}
+
+.single-feature h4:hover{
+    color:#f6214b;
+}
+
+/*review-area*/
+.review-area{
+    background-color:#f9f9ff;
+}
+
+.header-text h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/**/
+.latest-blog-area .title h1{
+    font-size: 36px;
+    padding: 10px 0;
+}
+.latest-blog-area .single-blog .tags {
+    margin: 20px 0;
+}
+.latest-blog-area .single-blog .tags li {
+    display: inline-block;
+    background: #f6214b;
+    border: 1px solid transparent;
+}
+.latest-blog-area .single-blog .tags li a {
+    color: #fff;
+    padding: 10px;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.latest-blog-area .single-blog .post-date {
+    color: #222;
+}
+.single-blog a > h4{
+    color: black;
+}
+
+/* */
+.callto-area{
+    background-image: url("./img/visa-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.callto-area .anchor-btn{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+/*Footer*/
+
+.footer-area{
+    background-color: #f6f5f5;
+}
+.footer-social a{
+    margin: 10px;    
+}
+
+
+/*About Page*/
+
+.about-top-left .home-about-right h1{
+    font-size:36px;
+}
+
+/*Course*/
+.details a>h4{
+    color: black;
+}
+
+.details a>h4:hover{
+    color:#f6214b;
+}
+
+.thumbs .overlay .thumb-btn{
+    color: black;
+}
